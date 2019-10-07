@@ -21,7 +21,7 @@ class DashboarFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         dashboardViewModel = ViewModelProviders.of(this).get(DashboardViewModel::class.java).apply {
-//            setIndex(arguments?.getInt(ARG_SECTION_NUMBER) ?: 1)
+            //            setIndex(arguments?.getInt(ARG_SECTION_NUMBER) ?: 1)
         }
     }
 
@@ -31,10 +31,10 @@ class DashboarFragment : Fragment() {
     ): View? {
 //        PageViewModel=
         val root = inflater.inflate(R.layout.fragment_dashboard, container, false)
-        val textView: TextView = root.findViewById(R.id.txdashboard)
-        dashboardViewModel.text.observe(this, Observer<String> {
-            textView.text = it
-        })
+//        val textView: TextView = root.findViewById(R.id.txdashboard)
+//        dashboardViewModel.text.observe(this, Observer<String> {
+//            textView.text = it
+//        })
         return root
     }
 
