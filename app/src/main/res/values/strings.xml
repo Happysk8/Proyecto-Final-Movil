@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">A-Maintenance</string>
+    <string name="nombre">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="iniciarsesion">INICIAR SESIÓN</string>
+    <string name="registrarse">REGISTRARSE</string>
+    <string name="registro">Registro</string>
+    <string name="correo">Correo</string>
+    <string name="repeatpassword">Repita la contraseña</string>
+    <string name="crear">ACEPTAR</string>
+    <string name="info">Usuario</string>
+    <string name="Over">Menú</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text_1">Mapa</string>
+    <string name="tab_text_2">Dashboard</string>
+    <string name="tab_text_3">Lista</string>
+</resources>
