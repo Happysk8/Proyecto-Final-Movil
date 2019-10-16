@@ -39,7 +39,8 @@ class LoginActivity : AppCompatActivity() {
         btInicio.setOnClickListener {
             var nombre = etNombre.text.toString()       //variable que almacena el nombre digitado en el EditText
             var password = etPassword.text.toString()
-            var intent = Intent(this,Main2Activity::class.java)
+            var intent = Intent(this,MapsActivity::class.java)
+//            var intent = Intent(this,Main2Activity::class.java)
             if (nombre == SavedName && password == SavedPasword){
                 intent.putExtra("nombre",nombre)
                 intent.putExtra("correo", SavedMail)

@@ -14,4 +14,5 @@
     <string name="tab_text_1">Mapa</string>
     <string name="tab_text_2">Dashboard</string>
     <string name="tab_text_3">Lista</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
